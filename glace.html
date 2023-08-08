@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Ajout de parfum</title>
+</head>
+
+<body>
+    <header>
+        <nav class="navbar">
+            <li><a class="a-nav" href="/connexion.html">ACCUEIL</a></li>
+            <li><a class="a-nav" href="/stock.html">GERER LE STOCK</a></li>
+        </nav>
+    </header>
+
+    <section class="main">
+        <h1>Ajout de glace</h1>
+        <form>
+            <label for="nom">Nom : </label>
+            <input name="nom" type="text" required>
+
+            <label for="volume-glace">Volume (dl): </label>
+            <input name="volume-glace" type="text" required>
+
+            <label for="parfum">Parfum :</label>
+            <select class="select" name="parfum-glace">
+                <option value="">(Sélectionnez en une)</option>
+                <option value="chocolat">Chocolat</option>
+                <option value="vanille">Vanille</option>
+                <option value="pistache">Pistache</option>
+                <option value="fraise">Fraise</option>
+            </select>
+
+            <label for="congelateur-glace">Associer à un congélateur: </label>
+            <select class="select" name="congelateur-glace">
+                <option value="">(Sélectionnez en un)</option>
+                <option value="chocolat">Congélateur 1</option>
+                <option value="vanille">Congélateur 2</option>
+                <option value="pistache">Congélateur 3</option>
+                <option value="fraise">Congélateur 4</option>
+            </select>
+            <button class="btn"><span>Valider</span></button>
+        </form>
+    </section>
+</body>

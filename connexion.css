@@ -1,0 +1,14 @@
+#inscription {
+    top: 75%;
+    width: 100%;
+    left: auto;
+    right: auto;
+    font-size: 20px;
+    text-align: center;
+    color: gray;
+    position:absolute;
+  }
+  
+  .lien-inscription {
+    color: gray;
+  }

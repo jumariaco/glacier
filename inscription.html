@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="inscription.css">
+    <title>Inscription</title>
+</head>
+
+<body>
+    <header>
+        <nav class="navbar">
+            <li><a class="a-nav" href="/connexion.html">ACCUEIL</a></li>
+            <li><a class="a-nav" href="/stock.html">GERER LE STOCK</a></li>
+        </nav>
+    </header>
+
+    <section class="main">
+        <form>
+            <label for="email">Email: </label>
+            <input id="email" name="email" placeholder="nom@exemple.com" type="email" required>
+            <label for="mot de passe">Mot de passe: </label>
+            <input id="mot-de-passe" name="mot-de-passe" type="password" pattern="[a-z0-5]{8,}" required>
+            <fieldset>
+                <h4>Rôle :</h4>
+                <label for="role-1"></label>
+                <input type="radio" name="role" class="radio">Rôle 1
+                <label for="role-2"> </label>
+                <input type="radio" name="role" class="radio">Rôle 2
+                <label for="role-3"><input name="role" type="radio" name="type-de-role" class="radio">Rôle 3
+                </label>
+                <label for="role-4"><input name="role" type="radio" name="type-de-role" class="radio">Rôle 4
+                </label>
+            </fieldset>
+
+            <button class="btn"><span>Inscription</span></button>
+        </form>
+    </section>
+</body>
+</html>

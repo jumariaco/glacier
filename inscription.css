@@ -1,0 +1,8 @@
+fieldset {
+    border: none;
+  }  
+
+.radio {
+    width: unset;
+    margin: 0 7px 0 17px;
+  }
